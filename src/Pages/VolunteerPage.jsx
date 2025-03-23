@@ -161,7 +161,7 @@ const VolunteerPage = () => {
     formData.append('termsAccepted', addressDetails.termsAccepted);
 
     try {
-      const response = await axios.post('https://dharmakarm-foundation.onrender.com/api/volunteers', formData, {
+      const response = await axios.post('https://kanhaseva-in.onrender.com/api/volunteers', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
