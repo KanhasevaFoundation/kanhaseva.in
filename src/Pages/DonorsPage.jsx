@@ -7,7 +7,7 @@ const AdminDonorListPage = () => {
 
   useEffect(() => {
     // Fetch donations from the server
-    axios.get('https://dharmakarm-foundation.onrender.com/api/donations')
+    axios.get('https://kanhaseva-in.onrender.com/api/donations')
       .then(response => setDonations(response.data))
       .catch(error => console.error('Error fetching donations:', error));
   }, []);
